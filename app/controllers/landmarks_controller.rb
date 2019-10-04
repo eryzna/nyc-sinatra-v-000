@@ -1,3 +1,5 @@
 class LandmarksController < ApplicationController
-  # add controller methods
+  get '/' do
+    erb :'/landmarks'
+  end
 end
